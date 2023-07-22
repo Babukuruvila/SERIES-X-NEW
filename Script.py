@@ -192,7 +192,7 @@ Any Doubts or Not Connecting? Contact Me </b>
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<code>{file_name}</code
+    CAPTION = """<code>{file_name}</code>
 
 <b>🔊 Cʜᴀɴɴᴇʟ : @MovieClubOfficiall
 🔊 Cʜᴀɴɴᴇʟ : @SeriesXOfficial
