@@ -170,7 +170,7 @@ Any Doubts or Not Connecting? Contact Me </b>
 
 ℹ️ Cʟɪᴄᴋ Tʜᴇ Sᴇᴀsᴏɴ Bᴜᴛᴛᴏɴ Fᴏʀ Fɪɴᴅɪɴɢ Tʜᴇ Dᴇsɪʀᴇᴅ Sᴇᴀsᴏɴ.
 
-ℹ️Rᴇǫᴜᴇsᴛ Wɪᴛʜ Tʜᴇ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ"""
+ℹ️ Rᴇǫᴜᴇsᴛ Wɪᴛʜ Tʜᴇ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ"""
 
     SINFO = """
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
@@ -192,11 +192,12 @@ Any Doubts or Not Connecting? Contact Me </b>
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/+pl4rB-xx8ltlOTE1> ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ </a>
-▫️<a href=https://t.me/+ps2An00KwZYwNTRl> ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇs​ </a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
+    CAPTION = """<code>{file_name}</code
+
+<b>🔊 Cʜᴀɴɴᴇʟ : @MovieClubOfficiall
+🔊 Cʜᴀɴɴᴇʟ : @SeriesXOfficial
+
+🎗️ʝσιи 🎗️ ѕнαяє🎗️ ѕυρρσят🎗️</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
