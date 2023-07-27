@@ -155,12 +155,12 @@ async def next_page(bot, query):
         btn = []
     try:
         if settings['max_btn']:
-            if 0 < offset <= 10:
+            if 0 < offset <= 15:
                 off_set = 0
             elif offset == 0:
                 off_set = None
             else:
-                off_set = offset - 10
+                off_set = offset 
             if n_offset == 0:
                 btn.append(
                     [InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
@@ -171,7 +171,7 @@ async def next_page(bot, query):
                 btn.append(
                     [
                         InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
-                        InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
+                        InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/15)}", callback_data="pages"),
                         InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
@@ -198,12 +198,12 @@ async def next_page(bot, query):
                 )
     except KeyError:
         await save_group_settings(query.message.chat.id, 'max_btn', True)
-        if 0 < offset <= 10:
+        if 0 < offset <= 15:
             off_set = 0
         elif offset == 0:
             off_set = None
         else:
-            off_set = offset - 10
+            off_set = offset - 15
         if n_offset == 0:
             btn.append(
                 [InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
